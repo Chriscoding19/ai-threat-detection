@@ -1,10 +1,10 @@
-# 🧠 AI-Based Threat Detection System
+# AI-Based Threat Detection System
 
 A machine learning system that classifies network traffic and detects cyber attacks using multiple ML models including Random Forest, Gradient Boosting, and Isolation Forest.
 
 ---
 
-## 📐 Architecture
+## Architecture
 
 ```
 ai-threat-detection/
@@ -21,12 +21,12 @@ ai-threat-detection/
 │   ├── report_generator.py             ← HTML report output
 │   └── figures/                        ← Generated PNG charts
 └── tests/
-    └── test_threat_detection.py        ← 23 unit tests (all passing ✅)
+    └── test_threat_detection.py        ← 23 unit tests (all passing)
 ```
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Install dependencies
@@ -47,7 +47,7 @@ python tests/test_threat_detection.py
 
 ---
 
-## 🔍 What It Detects
+## What It Detects
 
 | Attack Class | Key Indicators | Severity |
 |---|---|---|
@@ -59,7 +59,7 @@ python tests/test_threat_detection.py
 
 ---
 
-## 🤖 ML Models
+## ML Models
 
 ### 1. Random Forest Classifier (Primary)
 - 150 decision trees, balanced class weights
@@ -83,7 +83,7 @@ python tests/test_threat_detection.py
 
 ---
 
-## 🔧 Feature Engineering (21 features)
+## Feature Engineering (21 features)
 
 Raw features + engineered:
 
@@ -103,7 +103,7 @@ Raw features + engineered:
 
 ---
 
-## 📊 Results
+## Results
 
 ```
 MODEL                               ACCURACY       F1
@@ -126,7 +126,7 @@ SSH brute force                    brute_force             100.0%  ⚠ ANOMALY
 
 ---
 
-## 🛠 Technologies
+## Technologies
 
 - **Language**: Python 3.10+
 - **ML**: scikit-learn (RandomForest, GradientBoosting, IsolationForest)
