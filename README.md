@@ -51,7 +51,7 @@ python tests/test_threat_detection.py
 
 | Attack Class | Key Indicators | Severity |
 |---|---|---|
-| **Normal** | Business hours, typical packet sizes | — |
+| **Normal** | Business hours, typical packet sizes | - |
 | **DoS** | conn_rate > 100, tiny packets, packet flood | Critical |
 | **Port Scan** | unique_ports > 100, SYN-only, short sessions | High |
 | **Data Exfiltration** | bytes_sent > 100KB, off-hours, slow & steady | Critical |
@@ -72,7 +72,7 @@ python tests/test_threat_detection.py
 - **Accuracy: 100%** on test set
 
 ### 3. Isolation Forest (Unsupervised)
-- Does NOT require labels — detects zero-day attacks
+- Does NOT require labels - detects zero-day attacks
 - Flags statistically unusual traffic patterns
 - **Accuracy: 98.7%** binary (normal vs anomaly)
 
