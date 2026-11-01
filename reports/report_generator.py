@@ -76,7 +76,7 @@ def generate_html_report(results: list, label_names: list,
 </head>
 <body>
 <div class="container">
-  <h1>🧠 AI-Based Threat Detection</h1>
+  <h1> AI-Based Threat Detection</h1>
   <div class="meta">
     Generated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")} &nbsp;|&nbsp;
     Dataset: {dataset_stats.get('total', 0):,} traffic records &nbsp;|&nbsp;
