@@ -52,7 +52,7 @@ def parse_args():
 
 def print_header():
     print("\n" + "═"*65)
-    print("   🧠  AI-BASED THREAT DETECTION SYSTEM")
+    print("   AI-BASED THREAT DETECTION SYSTEM")
     print("   Machine Learning for Network Security Analytics")
     print("═"*65)
 
@@ -162,9 +162,9 @@ def main():
 
     elapsed = time.time() - start
     print(f"\n{'═'*65}")
-    print(f"  ✅  Complete! Total time: {elapsed:.1f}s")
-    print(f"  📊  Report : reports/threat_detection_report_*.html")
-    print(f"  💾  Models : models/")
+    print(f"  Complete! Total time: {elapsed:.1f}s")
+    print(f"  Report : reports/threat_detection_report_*.html")
+    print(f"  Models : models/")
     print(f"{'═'*65}\n")
 
 
